@@ -1,6 +1,6 @@
 function esBisiesto(num)
 {
-    if(num == 4|| num == 400 || num == 800){
+    if(num%4 == 0){
         return true;
     }
     else
